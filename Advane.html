@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <link href="style.css" type="text/css" rel="stylesheet"/>
+
+
+    <script type="text/javascript">
+        function Toggle(value){
+        switch(value){
+        case 'aboutMe':
+        document.getElementById('aboutMe').style.display="block";
+        document.getElementById('Projects').style.display="none";
+        document.getElementById('Settins').style.display="none";
+        break;
+        case 'Projects':
+        document.getElementById('aboutMe').style.display="none";
+        document.getElementById('Projects').style.display="block";
+        document.getElementById('Settins').style.display="none";
+        break;
+        case 'Settins':
+        document.getElementById('aboutMe').style.display="none";
+        document.getElementById('Projects').style.display="none";
+        document.getElementById('Settins').style.display="block";
+        break;
+        }
+        }
+        
+        </script>
+
+</head>
+
+<body class="background">
+    
+
+    <div>
+
+        <div class="cover">
+
+            <div>
+                <img class="image" src="thumbnail_avatar7.png"/>
+
+            </div>
+
+            <div class="name">
+                <span>John Deon</span>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="tab" style="float: left;">
+
+            <div style="float: left;" onclick="Toggle('aboutMe')">
+                <span>ABOUT ME</span>
+            </div>
+
+            <div style="float: left;" class="menu" onclick="Toggle('Projects')">
+                <span>PROJECTS</span>
+            </div>
+
+            <div style="float: left;" class="menu" onclick="Toggle('Settins')">
+                <span>SETTINGS</span>
+            </div>
+        
+        
+        
+        
+        </div>
+
+<div id="aboutMe">
+
+
+<div class="b12" style="float: left;"> 
+ <div class="box1" style="clear: left;">
+
+    <div class="text0">
+        <h3>Personal Information</h3>
+    </div>
+
+    <hr/>
+
+    <div class="sub1">
+
+    <div>
+        <span>Full Name</span>
+    </div>
+    <div>
+
+        <span class="text">Jonathan Deo</span>
+
+    </div>
+
+</div>
+
+<div class="sub2">
+
+    <div>
+        <span>Mobile</span>
+    </div>
+    <div>
+
+        <span class="text">(123) 123 1234</span>
+
+    </div>
+
+</div>
+
+<div class="sub3">
+
+
+    <div>
+        <span>Email</span>
+    </div>
+    <div>
+
+        <span class="text">Johnathandeon@moltran.com</span>
+
+    </div>
+</div>
+
+<div class="sub4">
+
+
+    <div>
+        <span>Location</span>
+    </div>
+    <div>
+
+        <span class="text">USA</span>
+
+    </div>
+</div>
+
+</div>
+<div class="box3" style="clear: left;">
+    <div class="lan">
+        <h3>Languages</h3>
+    </div>
+    <hr>
+
+    <div class="item" >
+        <ul>
+            <li>English</li>
+            <li>Franch</li>
+            <li>Greek</li>
+        </ul>
+    </div>
+</div>
+</div>
+
+
+
+<div class="b34"style="float: left;">
+    <div class="box2" style="clear: left;">
+
+        <div class="text2">
+            <h3 class="bio">Biography</h3>
+
+        </div>
+
+        <hr>
+
+        <div class="bio">
+
+            <p>Lorem Ipsum is semply dummy text of the printing and typesetting industry.lorem ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
+                it to make a type specimen book . 
+                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            </p>
+            
+
+            <h3>But also the leap into electronic typesetting , remaining essentially unchanged.</h3>
+
+            <p>It was popularised in the 1960s with the release of letraset sheets containing lorem ipsum passages, and more recently with 
+                desktop publishing software like aldus pagemaker including versions of lorem ipsum.
+                
+            </p>
+
+        </div>
+
+    </div>
+
+    <div class="box4" style="clear: left;">
+
+        <div class="skills">
+            <h3>SKILLS</h3>
+        </div>
+
+        <hr>
+
+        <div>
+            <span class="s1">Angular Js</span>
+            <span class="per">60%</span>
+
+            <br>
+
+        <div class="progressbar"></div>
+
+    </div>
+
+    <div>
+        <span class="s1">Javascript</span>
+        <span class="per">90%</span>
+
+        <br>
+
+        <div class="progressbar"></div>
+
+</div>
+
+
+<div>
+    <span class="s1">Wordpress</span>
+    <span class="per">80%</span>
+
+    <br>
+
+    <div class="progressbar"></div>
+
+</div>
+
+
+<div>
+
+    <div style="margin-top: 10px;">
+<span class="s1">HTML5&CSS3</span>
+</div>
+<span class="per">95%</span>
+
+<br>
+
+<div class="progressbar"></div>
+
+</div>
+
+</div>
+
+</div>
+
+        </div>
+
+<div style="display: none;" id="Projects">
+
+    <div class="t">
+<div class="title">
+    <h3>MY PROJECTS</h3>
+</div>
+
+     <table>
+      <tr>
+        <th class="th">#</th>
+        <th>Project Name</th>
+        <th>Start Date</th>
+        <th>Due Date</th>
+        <th>Assign</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Maria Anders</td>
+        <td>Germany</td>
+        <td>Germany</td>
+        <td>Germany</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+        <td>Mexico</td>
+        <td>Mexico</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Francisco Chang</td>
+        <td>Mexico</td>
+        <td>Mexico</td>
+        <td>Mexico</td>
+      </tr>
+      
+    </table>
+    
+</div>
+</div>
+
+<div style="display: none;" id="Settins">
+
+    <div class="settings">
+        <div class="profile">
+            <h3>EDIT PROFILE</h3>
+        </div>
+        <hr>
+     
+            <div>
+                <h4 class="pro">Name</4>
+            </div>
+            <div class="p0">
+            <input type="text" class="p1">
+            </div>
+
+            <div>
+                <h4 class="pro">Email</4>
+            </div>
+            <div class="p0">
+            <input type="text" class="p1">
+            </div>
+
+            <div>
+                <h4 class="pro">UserName</4>
+            </div>
+            <div class="p0">
+            <input type="text" class="p1">
+            </div>
+
+            <div>
+                <h4 class="pro">Password</4>
+            </div>
+            <div class="p0">
+            <input type="text" class="p1">
+            </div>
+
+            <div>
+                <h4 class="pro">Re-Password</4>
+            </div>
+            <div class="p0">
+            <input type="text" class="p1">
+            </div>
+
+            <div>
+                <h4 class="pro">About Me</4>
+            </div>
+            <div class="p0">
+            <input type="text" class="about">
+            </div>
+
+            <div>
+                <button class="buttonsave" >Save Changes</button>
+            </dive>
+        
+    
+
+</div>
+</body>
+
+</html>
